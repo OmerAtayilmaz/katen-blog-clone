@@ -60,24 +60,46 @@ const activePosts = ref('recent')
       <div class="mt-4">
         <!--Popular Posts-->
         <div v-show="activePosts == 'popular'">
-          <div class="flex items-center space-x-4 mb-4">
+          <div class="flex items-center space-x-4 mb-6">
             <div class="w-16 h-16 rounded-full overflow-hidden">
               <img class="card-placeholder-image object-cover w-full h-full" />
             </div>
             <div>
-              <h6 class="text-lg text-brand-dark font-bold">
-                Yazılım öğrenmeden projenin önemi
+              <h6 class="text-md text-brand-dark font-bold">
+                3 Easy Ways To Make Your iPhone Faster
               </h6>
               <span class="text-xs text-gray-500">29 March 2024</span>
             </div>
           </div>
-          <div class="flex items-center space-x-4 mb-4">
+          <div class="flex items-center space-x-4 mb-6">
             <div class="w-16 h-16 rounded-full overflow-hidden">
               <img class="card-placeholder-image object-cover w-full h-full" />
             </div>
             <div>
-              <h6 class="text-lg text-brand-dark font-bold">
-                Yazılım öğrenmeden projenin önemi
+              <h6 class="text-md text-brand-dark font-bold">
+                An Incredibly Easy Method That Works For All
+              </h6>
+              <span class="text-xs text-gray-500">29 March 2024</span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-16 h-16 rounded-full overflow-hidden">
+              <img class="card-placeholder-image object-cover w-full h-full" />
+            </div>
+            <div>
+              <h6 class="text-md text-brand-dark font-bold">
+                An Incredibly Easy Method That Works For All
+              </h6>
+              <span class="text-xs text-gray-500">29 March 2024</span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-16 h-16 rounded-full overflow-hidden">
+              <img class="card-placeholder-image object-cover w-full h-full" />
+            </div>
+            <div>
+              <h6 class="text-md text-brand-dark font-bold">
+                An Incredibly Easy Method That Works For All
               </h6>
               <span class="text-xs text-gray-500">29 March 2024</span>
             </div>
@@ -86,23 +108,45 @@ const activePosts = ref('recent')
 
         <!--Popular Posts-->
         <div v-show="activePosts == 'recent'">
-          <div class="flex items-center space-x-4 mb-4">
+          <div class="flex items-center space-x-4 mb-6">
             <div class="w-16 h-16 rounded-full overflow-hidden">
               <img class="card-placeholder-image object-cover w-full h-full" />
             </div>
             <div>
-              <h6 class="text-lg text-brand-dark font-bold">
+              <h6 class="text-md text-brand-dark font-bold">
+                3 Easy Ways To Make Your iPhone Faster
+              </h6>
+              <span class="text-xs text-gray-500">29 March 2024</span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-16 h-16 rounded-full overflow-hidden">
+              <img class="card-placeholder-image object-cover w-full h-full" />
+            </div>
+            <div>
+              <h6 class="text-md text-brand-dark font-bold">
                 Recent Yazılım öğrenmeden projenin önemi
               </h6>
               <span class="text-xs text-gray-500">29 March 2024</span>
             </div>
           </div>
-          <div class="flex items-center space-x-4 mb-4">
+          <div class="flex items-center space-x-4 mb-6">
             <div class="w-16 h-16 rounded-full overflow-hidden">
               <img class="card-placeholder-image object-cover w-full h-full" />
             </div>
             <div>
-              <h6 class="text-lg text-brand-dark font-bold">
+              <h6 class="text-md text-brand-dark font-bold">
+                Recent Yazılım öğrenmeden projenin önemi
+              </h6>
+              <span class="text-xs text-gray-500">29 March 2024</span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 mb-6">
+            <div class="w-16 h-16 rounded-full overflow-hidden">
+              <img class="card-placeholder-image object-cover w-full h-full" />
+            </div>
+            <div>
+              <h6 class="text-md text-brand-dark font-bold">
                 Recent Yazılım öğrenmeden projenin önemi
               </h6>
               <span class="text-xs text-gray-500">29 March 2024</span>
@@ -112,4 +156,5 @@ const activePosts = ref('recent')
       </div>
     </div>
   </main>
+  
 </template>
