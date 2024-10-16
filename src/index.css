@@ -13,3 +13,14 @@
 .card-placeholder-image {
   background-image: url('@/assets/images/tabs-1.jpg');
 }
+
+.editor-image {
+  background-image: url('@/assets/images/editor-lg.jpg');
+}
+
+.author-image {
+  background-image: url('@/assets/images/author-sm.png');
+}
+.katen-map {
+  background-image: url('@/assets/images/map-bg.png');
+}
