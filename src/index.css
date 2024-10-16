@@ -1,0 +1,15 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-btn-background hover:bg-btn-background-h p-3 text-white w-8 h-8 flex items-center justify-center rounded-full;
+}
+.hero-image {
+  background-image: url('@/assets/images/featured-lg.jpg');
+}
+
+.card-placeholder-image {
+  background-image: url('@/assets/images/tabs-1.jpg');
+}
