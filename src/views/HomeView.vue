@@ -291,4 +291,33 @@ const activePosts = ref('recent')
       <!--/Katen Card-->
     </div>
   </div>
+  <div class="container mx-auto px-12 my-5 gap-5">
+    <div class="w-2/3 flex justify-evenly items-center gap-5">
+     <div class="w-1/2 space-y-3 ">
+      <img class="rounded-xl"  src="@/assets/images/about.jpg"/>
+      <div class="flex space-x-2 justify-start items-center">
+        <img class="w-8" src="@/assets/images/author-sm.png"/>
+        <span class="text-gray-500 text-sm">John Smith</span>
+        <span class="text-xl text-brand-primary">.</span>
+        <time class="text-gray-500 text-sm">Oct 23, 2024</time>
+      </div>
+      <footer class="text-sm text-gray-400 leading-6">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci provident atque.
+      </footer>
+     </div>
+     <div class="w-1/2 space-y-3 ">
+      <img class="rounded-xl"  src="@/assets/images/about.jpg"/>
+      <div class="flex space-x-2 justify-start items-center">
+        <img class="w-8" src="@/assets/images/author-sm.png"/>
+        <span class="text-gray-500 text-sm">John Smith</span>
+        <span class="text-xl text-brand-primary">.</span>
+        <time class="text-gray-500 text-sm">Oct 23, 2024</time>
+      </div>
+      <footer class="text-sm text-gray-400 leading-6">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci provident atque.
+      </footer>
+     </div>
+    </div>
+  </div>
 </template>
+ 
