@@ -320,6 +320,7 @@ const activePosts = ref('recent')
         </footer>
       </div>
     </div>
+
     <div class="w-1/3">
       <h4 class="text-brand-dark text-xl font-bold text-center">
         Explore Topics
