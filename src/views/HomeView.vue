@@ -291,33 +291,59 @@ const activePosts = ref('recent')
       <!--/Katen Card-->
     </div>
   </div>
-  <div class="container mx-auto px-12 my-5 gap-5">
+  <div class="container mx-auto px-12 my-5 gap-5 flex">
     <div class="w-2/3 flex justify-evenly items-center gap-5">
-     <div class="w-1/2 space-y-3 ">
-      <img class="rounded-xl"  src="@/assets/images/about.jpg"/>
-      <div class="flex space-x-2 justify-start items-center">
-        <img class="w-8" src="@/assets/images/author-sm.png"/>
-        <span class="text-gray-500 text-sm">John Smith</span>
-        <span class="text-xl text-brand-primary">.</span>
-        <time class="text-gray-500 text-sm">Oct 23, 2024</time>
+      <div class="w-1/2 space-y-3">
+        <img class="rounded-xl" src="@/assets/images/about.jpg" />
+        <div class="flex space-x-2 justify-start items-center">
+          <img class="w-8" src="@/assets/images/author-sm.png" />
+          <span class="text-gray-500 text-sm">John Smith</span>
+          <span class="text-xl text-brand-primary">.</span>
+          <time class="text-gray-500 text-sm">Oct 23, 2024</time>
+        </div>
+        <footer class="text-sm text-gray-400 leading-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          adipisci provident atque.
+        </footer>
       </div>
-      <footer class="text-sm text-gray-400 leading-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci provident atque.
-      </footer>
-     </div>
-     <div class="w-1/2 space-y-3 ">
-      <img class="rounded-xl"  src="@/assets/images/about.jpg"/>
-      <div class="flex space-x-2 justify-start items-center">
-        <img class="w-8" src="@/assets/images/author-sm.png"/>
-        <span class="text-gray-500 text-sm">John Smith</span>
-        <span class="text-xl text-brand-primary">.</span>
-        <time class="text-gray-500 text-sm">Oct 23, 2024</time>
+      <div class="w-1/2 space-y-3">
+        <img class="rounded-xl" src="@/assets/images/about.jpg" />
+        <div class="flex space-x-2 justify-start items-center">
+          <img class="w-8" src="@/assets/images/author-sm.png" />
+          <span class="text-gray-500 text-sm">John Smith</span>
+          <span class="text-xl text-brand-primary">.</span>
+          <time class="text-gray-500 text-sm">Oct 23, 2024</time>
+        </div>
+        <footer class="text-sm text-gray-400 leading-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          adipisci provident atque.
+        </footer>
       </div>
-      <footer class="text-sm text-gray-400 leading-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus adipisci provident atque.
-      </footer>
-     </div>
+    </div>
+    <div class="w-1/3">
+      <h4 class="text-brand-dark text-xl font-bold text-center">
+        Explore Topics
+      </h4>
+      <ul class="flex flex-col space-y-5">
+        <li class="border-b border-gray-200 font-semibold indent-5 pb-2">
+          <a href="#"> Lifestyle</a>
+        </li>
+        <li class="border-b border-gray-200 font-semibold indent-5 pb-2">
+          <a href="#"> Inspiration</a>
+        </li>
+        <li class="border-b border-gray-200 font-semibold indent-5 pb-2">
+          <a href="#"> Fashion</a>
+        </li>
+        <li class="border-b border-gray-200 font-semibold indent-5 pb-2">
+          <a href="#"> Politic</a>
+        </li>
+        <li class="border-b border-gray-200 font-semibold indent-5 pb-2">
+          <a href="#"> Trending</a>
+        </li>
+        <li class="border-b border-gray-200 font-semibold indent-5 pb-2">
+          <a href="#"> Culture</a>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
- 
